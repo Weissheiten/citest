@@ -17,7 +17,7 @@ class Dice{
      * @param int $sides number of sides for the die
      */
     public function __construct(int $sides){
-        $this->sides = $sides*2;
+        $this->sides = $sides;
     }
 
     /**
